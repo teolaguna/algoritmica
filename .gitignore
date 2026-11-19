@@ -1,0 +1,34 @@
+# ==========================================================
+# .gitignore — Actividad 9 (Laboratorio de Programación)
+# Exclusión de binarios y artefactos de compilación
+# ==========================================================
+
+# --- Binarios / ejecutables (pedido en la consigna) ---
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+a.out
+
+# --- Entornos / editores (pedido en la consigna) ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Compilación ---
+build/
+bin/
+obj/
+*.gch
+*.dSYM/
+
+# --- Sistema ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Logs ---
+*.log
